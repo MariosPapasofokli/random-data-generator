@@ -7,7 +7,7 @@
   *
   * TO REPLICATE
   * `sbt test`
-  * the compiler complains with could not find implicit value for parameter e: org.scalacheck.Arbitrary[BigExample]
+  * the compiler complains with "could not find implicit value for parameter e: org.scalacheck.Arbitrary[BigExample]""
   *
   * even crazier....if you copy and paste the code from lines 23-33 in a scala REPL it works!
   * */
