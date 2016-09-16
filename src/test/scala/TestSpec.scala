@@ -30,6 +30,8 @@ class TestSpec extends SpecificationLike {
                             f26: String, f27: Int, f28: Long, f29: Char, f30: String)
 
       implicitly[Arbitrary[BigExample]]
+
+      true === true
     }
   }
 }
