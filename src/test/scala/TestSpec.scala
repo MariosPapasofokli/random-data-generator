@@ -10,6 +10,10 @@
   * the compiler complains with "could not find implicit value for parameter e: org.scalacheck.Arbitrary[BigExample]"
   *
   * even crazier....if you copy and paste the code from lines 23-33 in a scala REPL it works!
+  *
+  * SOLUTION
+  *
+  * Mystery Solved! Bumping up the scala version from 2.11.7 to 2.11.8 fixes the problem
   * */
 
 import org.specs2.mutable._
