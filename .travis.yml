@@ -31,3 +31,4 @@ env:
 branches:
   only:
     - master
+    - scalacheck_shapeless_big_case_classes
